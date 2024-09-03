@@ -5,7 +5,7 @@ from Crypto.Random import get_random_bytes, random
 min_v=0
 max_v=9
 
-print("***** Password Generator *****\n***** w/ Encryption *****")
+print("***** Password Generator *****")
 pw_len=int(input("Enter Password Length\nRecommended to a minimum of 6\n>> ")) #user input length
 print()
 password_list=[]
