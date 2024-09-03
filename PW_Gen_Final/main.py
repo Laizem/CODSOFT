@@ -17,7 +17,6 @@ def char_chance():
 
 for _ in range(pw_len):
     which_char=char_chance()
-    print(f"{which_char} - which_char")
     if 2 in which_char or 5 in which_char:
         add_char=generate_random_special_characters(1)
         password_list.append(add_char)
